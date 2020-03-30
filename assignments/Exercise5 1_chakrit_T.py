@@ -1,0 +1,7 @@
+print("---calculator---")
+n1 = int(input("put first number:"))
+n2 = int(input("put second number:"))
+print(n1,"+",n2,"=",n1+n2)
+print(n1,"-",n2,"=",n1-n2)
+print(n1,"*",n2,"=",n1*n2)
+print(n1,"/",n2,"=",n1/n2)
