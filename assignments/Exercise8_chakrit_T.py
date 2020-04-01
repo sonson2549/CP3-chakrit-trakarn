@@ -20,52 +20,31 @@ print("5,egg:20 bath")
 print("6,fish:65 bath")
 print("7,water:12 bath")
 a = int(input("please press you produce number:"))
-if a == 1:
-    m = int(input("How many of that:"))
-    h = 36*m
-print("whats more?", "if more press 1 else press 0")
-mm = int(input(":"))
-if mm == 1:
-    a = int(input("please press you produce number:"))
-    if a == 2:
-        m = int(input("How many of that:"))
-        ww = 8*m
-    print("whats more?", "if more press 1 else press 0")
-    mm = int(input(":"))
-    if mm == 1:
-        a = int(input("please press you produce number:"))
-        if a == 3:
-            m = int(input("How many of that:"))
-            u = 20 * m
-        print("whats more?", "if more press 1 else press 0")
-        mm = int(input(":"))
-        if mm == 1:
-            a = int(input("please press you produce number:"))
-            if a == 4:
-                m = int(input("How many of that:"))
-                r = 200 * m
-            print("whats more?", "if more press 1 else press 0")
-            mm = int(input(":"))
-            if mm == 1:
-                a = int(input("please press you produce number:"))
-                if a == 5:
-                    m = int(input("How many of that:"))
-                    s = 20 * m
-                print("whats more?", "if more press 1 else press 0")
-                mm = int(input(":"))
-                if mm == 1:
-                    a = int(input("please press you produce number:"))
-                    if a == 6:
-                        m = int(input("How many of that:"))
-                        d = 65 * m
-                    print("whats more?", "if more press 1 else press 0")
-                    mm = int(input(":"))
-                    if mm == 1:
-                        a = int(input("please press you produce number:"))
-                        if a == 7:
-                            m = int(input("How many of that:"))
-                            z = 12 * m
-                        print("whats more?", "if more press 1 else press 0")
-                        mm = int(input(":"))
-                        if mm == 1:
-                            a = int(input("please press you produce number:"))
+if a == 1 :
+    amout = int(input("how many do you want:"))
+    total = amout * 36
+    print(total)
+elif a == 2 :
+    amout = int(input("how many do you want:"))
+    total = amout * 8
+    print(total)
+elif a == 3 :
+    amout = int(input("how many do you want:"))
+    total = amout * 20
+    print(total)
+elif a == 4 :
+    amout = int(input("how many do you want:"))
+    total = amout * 200
+    print(total)
+elif a == 5 :
+    amout = int(input("how many do you want:"))
+    total = amout * 20
+    print(total)
+elif a == 6 :
+    amout = int(input("how many do you want:"))
+    total = amout * 65
+    print(total)
+elif a == 7 :
+    amout = int(input("how many do you want:"))
+    total = amout * 12
+    print(total)
